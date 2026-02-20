@@ -221,12 +221,16 @@ body {
 
 .section-divider {
     width: 80%;
-    height: 2px;
-    background-color: var(--accent);
+    height: 1px;
+    background: linear-gradient(
+        to right,
+        transparent,
+        var(--accent),
+        transparent
+    );
     margin: 30px auto;
-    border-radius: 5px;
+    opacity: 0.6;
 }
-
 .section-title {
     text-align: center;
     font-size: 24px;
