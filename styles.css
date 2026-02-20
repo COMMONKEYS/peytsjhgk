@@ -695,4 +695,19 @@ audio {
       transition: transform 0.08s ease;
       box-shadow: 0 0 10px 2px var(--accent);
     }
-    
+
+.video-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-circle video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* THIS is the important part */
+}
