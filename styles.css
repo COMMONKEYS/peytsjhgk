@@ -579,7 +579,7 @@ body {
 #volume-slider {
     -webkit-appearance: none;
     appearance: none;
-    background: #b570ff63;
+    background: #ff4d4d63;
     border-radius: 5px;
     outline: none;
     cursor: pointer;
